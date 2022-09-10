@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print the letters of the alphabet
  *
@@ -6,9 +7,11 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int i = 0;
+	int i = 0
+		;
 	while (i < 48)
 	{
 		if (i < 10)
@@ -18,5 +21,6 @@ int main(void)
 		i++;
 	}
 	putchar(10);
+
 	return (0);
 }

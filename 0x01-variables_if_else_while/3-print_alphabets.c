@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i, j;
+
 	i = 97;
 	j = 65;
 	while (i < 123)
@@ -22,6 +23,7 @@ int main(void)
 		j++;
 	}
 	putchar(10);
-	Return (0);
+
+	return (0);
 }
 
