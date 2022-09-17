@@ -5,10 +5,10 @@
  *
  * @r: r is an integer
  *
- * Return: r (Bingo)
+ * Return: integer (Bingo)
  */
 
-int _abs(int)
+int _abs(int r)
 {
 	if (r > 0)
 	{
