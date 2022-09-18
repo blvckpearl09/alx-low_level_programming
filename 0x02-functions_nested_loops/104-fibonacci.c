@@ -28,7 +28,7 @@ int main(void)
 		count++;
 	}
 
-	putchar("\n");
+	printf("\n");
 
 	return (0);
 }
