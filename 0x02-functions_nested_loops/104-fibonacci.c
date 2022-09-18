@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	unsigned long sum, first, second;
+	unsigned long int sum, first, second;
 	int count;
 
 	sum = 0;
@@ -25,6 +25,7 @@ int main(void)
 
 		count++;
 	}
+
 	sum = first + second;
 	printf("%lu\n", sum);
 
