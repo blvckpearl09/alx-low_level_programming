@@ -19,14 +19,14 @@ int main(void)
 	while (count < 97)
 	{
 		sum = first + second;
-		printf("%li, ", sum);
+		printf("%lu, ", sum);
 		first = second;
 		second = sum;
 
 		count++;
 	}
 	sum = first + second;
-	printf("%li\n", sum);
+	printf("%lu\n", sum);
 
 	return (0);
 }
