@@ -28,14 +28,14 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(ones + '0');
+				_putchar(units + '0');
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(tens + '0');
-				_putchar(ones + '0');
+				_putchar(units + '0');
 			}
 		}
 		_putchar('\n');
