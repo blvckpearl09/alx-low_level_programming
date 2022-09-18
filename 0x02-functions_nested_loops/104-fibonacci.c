@@ -16,18 +16,19 @@ int main(void)
 	second = 1;
 	count = 0;
 
-	while (count < 97)
+	while (count < 98)
 	{
 		sum = first + second;
-		printf("%lu, ", sum);
+		printf("%lu", sum);
 		first = second;
 		second = sum;
 
+		if (count < 97)
+			printf(", ");
 		count++;
 	}
 
-	sum = first + second;
-	printf("%lu\n", sum);
+	putchar("\n");
 
 	return (0);
 }
