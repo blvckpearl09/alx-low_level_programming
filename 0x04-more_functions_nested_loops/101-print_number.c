@@ -51,7 +51,7 @@ void print_number(int n)
 		{
 			begin = 1;
 			if (negative == 1)
-				_u('-');
+				_putchar('-');
 			_putchar('0' + digit);
 			place--;
 		}
