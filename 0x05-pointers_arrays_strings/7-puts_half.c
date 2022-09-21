@@ -15,12 +15,12 @@ void puts_half(char *str)
 	{
 		i++;
 	}
-	max = i;
-	j = max / 2;
-	while (j <= max)
+	
+	j = (i -1) / 2;
+
+	for (i = j; str[i]; i++)
 	{
-		_putchar(str[j]);
-		j++;
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
