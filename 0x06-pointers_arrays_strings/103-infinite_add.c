@@ -1,4 +1,5 @@
-nclude "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * rev_string - reverse array
